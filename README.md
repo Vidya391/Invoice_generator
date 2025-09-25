@@ -7,7 +7,7 @@ It creates professional invoices for products/services with auto-calculated taxe
 
 ## 🎯 Goal
 
-*Design a user-friendly interface where users can:
+*** Design a user-friendly interface where users can:
 
 *Enter product/service details
 
