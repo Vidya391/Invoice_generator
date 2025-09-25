@@ -7,13 +7,13 @@ It creates professional invoices for products/services with auto-calculated taxe
 
 ## 🎯 Goal
 
-*** Design a user-friendly interface where users can:
+  * Design a user-friendly interface where users can:
 
-*Enter product/service details
+  * Enter product/service details
 
-*Automatically calculate subtotal, tax, discount, and grand total
+  * Automatically calculate subtotal, tax, discount, and grand total
 
-*Export invoice in PDF format
+  * Export invoice in PDF format
 
 ---
 
