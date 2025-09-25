@@ -1,10 +1,11 @@
-🧾 Invoice Generator System
+# 🧾 Invoice Generator System
 
-A software application that creates professional invoices for products/services with auto-calculated taxes, discounts, and totals. The system provides a clean user interface for entering client and product details and allows users to generate/export invoices as PDF files.
+A desktop application built with **Python, Tkinter, SQLite, and FPDF** to generate and manage invoices.  
+It creates professional invoices for products/services with auto-calculated taxes, discounts, and totals. The system provides a clean user interface for entering client and product details and allows users to generate/exports invoices as **PDF files**.
 
 ---
 
-🎯 Goal
+## 🎯 Goal
 
 *Design a user-friendly interface where users can:
 
@@ -16,31 +17,46 @@ A software application that creates professional invoices for products/services 
 
 ---
 
-✨ Features
+## 🚀 Features
 
-🔸Add/Edit/Delete invoice items
+- 🖥️ **GUI with Tkinter**
 
-🔸Auto-calculation of:
+- ➕ Add, delete, and manage invoice items
 
-🔸Subtotal
+- 📊 Automatic calculation of:
 
-🔸Total Tax
+  - Subtotal
 
-🔸Discount
+  - Taxes
 
-🔸Grand Total
+  - Discounts
 
-🔸Generate and export PDF invoices
+  - Grand Total
 
-🔸Simple, clean, and responsive Tkinter-based UI
+- 📂 **Database (SQLite)** integration
 
-🔸Lightweight and runs on any system with Python installed
+  - Clients
+
+  - Products
+
+  - Invoices
+
+  - Invoice Items
+
+- 📑 Export invoice as a **professional PDF**
+
+- 🔍 Easy retrieval of saved invoices
+
+- ⏱️ Auto-incrementing invoice numbers
+
+- ✅ Cross-platform (Windows, Linux, macOS)
 
 ---
 
-📂 Project Structure
+## 📂 Project Structure
 
 Invoice-Generator/
+
 │── invoice_app.py              # Main Tkinter application (invoice generator)
 
 │── requirements.txt     # Python dependencies
@@ -52,3 +68,49 @@ Invoice-Generator/
 │── output/
 
 │   └── INV20250925-001.pdf  # Example exported PDF
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone Repository
+
+git clone https://github.com/Vidya391/invoice-generator.git
+
+cd invoice-generator
+
+### 2. Create Virtual Environment (optional but recommended)
+
+python -m venv venv
+
+source venv/bin/activate   # macOS/Linux
+
+venv\Scripts\activate      # Windows
+
+### 3. Install Dependencies
+
+pip install -r requirements.txt
+
+### 4. Run the Application
+
+python invoice_app.py
+
+---
+
+## 📄 Example Invoice PDF
+
+[INV20250925-001.pdf](https://github.com/user-attachments/files/22539919/INV20250925-001.pdf)
+
+---
+
+## 🔮 Future Enhancements
+
+  * Add authentication (login system)
+
+  * Search & filter invoices
+
+  * Generate invoice reports (monthly/yearly)
+
+  * Cloud database support (MySQL/PostgreSQL)
+
+  * Option to email invoices directly from the app
