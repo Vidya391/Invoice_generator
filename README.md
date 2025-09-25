@@ -91,7 +91,11 @@ venv\Scripts\activate      # Windows
 
 pip install -r requirements.txt
 
-### 4. Run the Application
+---
+
+## ▶️ Usage
+
+Run the app with:
 
 python invoice_app.py
 
